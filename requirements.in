@@ -1,3 +1,6 @@
+coverage
 fastapi
-uvicorn
+pytest
+requests
 sqlalchemy
+uvicorn
