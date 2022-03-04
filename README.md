@@ -1,2 +1,2 @@
 # fastcgem
-FastAPI APIs for CGEM
+FastAPI APIs for [CGEM](https://github.com/nessita/cgem).
