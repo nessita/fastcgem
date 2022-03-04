@@ -8,19 +8,6 @@ from pydantic import BaseModel
 app = FastAPI()
 
 
-class Item(BaseModel):
-    book: str
-    who: Optional[str] = None
-    when: Optional[datetime] = None
-    what: str
-    account: str
-    description: Optional[str] = None
-    amount: Decimal
-    tags: str
-    country: str
-    notes: Optional[str] = ''
-
-
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
